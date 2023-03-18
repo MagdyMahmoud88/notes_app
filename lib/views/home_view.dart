@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:notes_app/views/widgets/custom_app_bar.dart';
+import 'package:notes_app/views/widgets/custom_note_item.dart';
 
 class HomeView extends StatelessWidget {
   const HomeView({super.key});
@@ -15,6 +16,7 @@ class HomeView extends StatelessWidget {
               height: 50,
             ),
             CustomAppBar(),
+            NotesItem()
           ],
         ),
       ),
